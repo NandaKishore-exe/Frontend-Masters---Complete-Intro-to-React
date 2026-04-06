@@ -1,6 +1,7 @@
 import React from "react";
 
 const Pizza = (props) => {
+  // console.log("child rendered");
   return (
     <div className="pizza">
       <h1>{props.name}</h1>
